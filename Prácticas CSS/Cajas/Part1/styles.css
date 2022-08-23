@@ -1,0 +1,41 @@
+/*Remover estilos predeterminados que vienen en el navegador Recordar que los elementos bloque abarca el 100% de contenedor y da un salto de linea Los elementos de linea no generan saltos, no se puede utilizar el with y height y cuando se colocan propiedades invaden los elementos en bloque, para esto utilizamos la propiedad display
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin-right: 5px;
+    padding: 20px;
+    border: 2px solid rgb(129, 0, 0);
+    background-color: bisque;
+
+}
+.box1{
+    margin: 0 auto; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5px solid rgb(172, 49, 0);
+    box-sizing: border-box;/* Es para que el borde de la caja se ajuste   */
+}
+.box2{
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5px solid rgb(122, 3, 3);
+    box-sizing: border-box;
+}
+.box3{
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
